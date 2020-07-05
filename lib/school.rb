@@ -21,13 +21,6 @@ class School
   end
   
   def sort
-    new_hash = {}
-    @roster.each do |grades|
-      new_hash[grades] = []
-      grades.each do |value|
-        new_hash[grades] << value
-      end
-    end
-    new_hash
+    
   end
 end
