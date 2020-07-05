@@ -21,6 +21,7 @@ class School
   end
   
   def sort
-    @roster.sort
+    @roster.sort!
+    @roster.to_h
   end
 end
