@@ -25,5 +25,4 @@ class School
       grades.sort.to_h
     end
   end
-  end
 end
