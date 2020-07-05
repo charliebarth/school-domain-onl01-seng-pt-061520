@@ -20,4 +20,6 @@ class School
     @roster[grade_level]
   end
   
+  def sort
+    
 end
