@@ -6,6 +6,7 @@ class School
     @roster = roster
     @roster = {}
   end
+  
   def add_student(student, grades)
     if @roster.include? grades
       @roster[grades] << "#{student}"
@@ -13,5 +14,9 @@ class School
       @roster[grades] = []
       @roster[grades] << "#{student}"
     end
+  end
+  
+  def grade(grade_level)
+    @roster[grade_level]
   end
 end
